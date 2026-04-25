@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (yolo-ros) JobQueued: {'identifier': 'yolo-ros', 'dependencies': OrderedDict()}
+[0.000477] (yolo-ros) JobStarted: {'identifier': 'yolo-ros'}
+[0.007912] (yolo-ros) JobProgress: {'identifier': 'yolo-ros', 'progress': 'cmake'}
+[0.009698] (yolo-ros) Command: {'cmd': ['/usr/bin/cmake', '/home/sarve/yolo_ws/src/yolo_cam', '-DCMAKE_INSTALL_PREFIX=/home/sarve/yolo_ws/install/yolo-ros'], 'cwd': '/home/sarve/yolo_ws/build/yolo-ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sarve', 'GIT_ASKPASS': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib:/home/sarve/ros2_ws/install/relbot_msgs/lib:/home/sarve/ros2_ws/install/img_process/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sarve', 'OLDPWD': '/home/sarve/yolo_ws', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a4c06d24-3bee-4f3d-9566-c1ef917dd9ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sarve/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sarve', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/67240_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '35595', 'TERM': 'xterm-256color', 'PATH': '/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sarve/AppData/Local/Programs/Webots/msys64/mingw64/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Users/sarve/miniconda3:/mnt/c/Users/sarve/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/sarve/miniconda3/Library/usr/bin:/mnt/c/Users/sarve/miniconda3/Library/bin:/mnt/c/Users/sarve/miniconda3/Scripts:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/sarve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sarve/.dotnet/tools:/mnt/c/Users/sarve/AppData/Local/Programs/Ollama:/mnt/c/ffmpeg/ffmpeg-2025-07-10-git-82aeee3c19-full_build/bin:/mnt/c/Users/sarve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sarve/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/sarve/AppData/Local/PowerToys/DSCModules/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-907cf139a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sarve/yolo_ws/build/yolo-ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib/python3.12/site-packages:/home/sarve/ros2_ws/install/relbot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099130] (-) TimerEvent: {}
+[0.199480] (-) TimerEvent: {}
+[0.299074] (yolo-ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299690] (-) TimerEvent: {}
+[0.400014] (-) TimerEvent: {}
+[0.500415] (-) TimerEvent: {}
+[0.600879] (-) TimerEvent: {}
+[0.701347] (-) TimerEvent: {}
+[0.801717] (-) TimerEvent: {}
+[0.902109] (-) TimerEvent: {}
+[1.002536] (-) TimerEvent: {}
+[1.011743] (yolo-ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.102661] (-) TimerEvent: {}
+[1.203024] (-) TimerEvent: {}
+[1.303427] (-) TimerEvent: {}
+[1.403809] (-) TimerEvent: {}
+[1.504169] (-) TimerEvent: {}
+[1.588257] (yolo-ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.604283] (-) TimerEvent: {}
+[1.704632] (-) TimerEvent: {}
+[1.804973] (-) TimerEvent: {}
+[1.856283] (yolo-ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.865091] (yolo-ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.865941] (yolo-ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.867066] (yolo-ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.905258] (-) TimerEvent: {}
+[1.956148] (yolo-ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.005479] (-) TimerEvent: {}
+[2.106080] (-) TimerEvent: {}
+[2.206556] (-) TimerEvent: {}
+[2.213861] (yolo-ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.223458] (yolo-ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.223875] (yolo-ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.224520] (yolo-ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.240274] (yolo-ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.306679] (-) TimerEvent: {}
+[2.393598] (yolo-ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.406889] (-) TimerEvent: {}
+[2.507252] (-) TimerEvent: {}
+[2.508965] (yolo-ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.607389] (-) TimerEvent: {}
+[2.700562] (yolo-ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.707482] (-) TimerEvent: {}
+[2.714597] (yolo-ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.744481] (yolo-ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.763926] (yolo-ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.807693] (-) TimerEvent: {}
+[2.845832] (yolo-ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.848855] (yolo-ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.907917] (-) TimerEvent: {}
+[2.933353] (yolo-ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.008057] (-) TimerEvent: {}
+[3.105889] (yolo-ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.108145] (-) TimerEvent: {}
+[3.205658] (yolo-ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.208228] (-) TimerEvent: {}
+[3.308531] (-) TimerEvent: {}
+[3.408896] (-) TimerEvent: {}
+[3.413063] (yolo-ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.473365] (yolo-ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[3.488295] (yolo-ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") found components: core highgui imgcodecs imgproc videoio \n'}
+[3.508996] (-) TimerEvent: {}
+[3.599606] (yolo-ros) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.609199] (-) TimerEvent: {}
+[3.619899] (yolo-ros) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.627658] (yolo-ros) StdoutLine: {'line': b'-- Build files have been written to: /home/sarve/yolo_ws/build/yolo-ros\n'}
+[3.641099] (yolo-ros) CommandEnded: {'returncode': 0}
+[3.641715] (yolo-ros) JobProgress: {'identifier': 'yolo-ros', 'progress': 'build'}
+[3.641775] (yolo-ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sarve/yolo_ws/build/yolo-ros', '--', '-j16', '-l16'], 'cwd': '/home/sarve/yolo_ws/build/yolo-ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sarve', 'GIT_ASKPASS': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib:/home/sarve/ros2_ws/install/relbot_msgs/lib:/home/sarve/ros2_ws/install/img_process/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sarve', 'OLDPWD': '/home/sarve/yolo_ws', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a4c06d24-3bee-4f3d-9566-c1ef917dd9ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sarve/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sarve', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/67240_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '35595', 'TERM': 'xterm-256color', 'PATH': '/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sarve/AppData/Local/Programs/Webots/msys64/mingw64/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Users/sarve/miniconda3:/mnt/c/Users/sarve/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/sarve/miniconda3/Library/usr/bin:/mnt/c/Users/sarve/miniconda3/Library/bin:/mnt/c/Users/sarve/miniconda3/Scripts:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/sarve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sarve/.dotnet/tools:/mnt/c/Users/sarve/AppData/Local/Programs/Ollama:/mnt/c/ffmpeg/ffmpeg-2025-07-10-git-82aeee3c19-full_build/bin:/mnt/c/Users/sarve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sarve/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/sarve/AppData/Local/PowerToys/DSCModules/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-907cf139a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sarve/yolo_ws/build/yolo-ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib/python3.12/site-packages:/home/sarve/ros2_ws/install/relbot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[3.691907] (yolo-ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_node.dir/src/cam2image.cpp.o\x1b[0m\n'}
+[3.692177] (yolo-ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_node.dir/src/remote_capture.cpp.o\x1b[0m\n'}
+[3.692289] (yolo-ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_node.dir/src/image_processor.cpp.o\x1b[0m\n'}
+[3.709389] (-) TimerEvent: {}
+[3.809866] (-) TimerEvent: {}
+[3.910272] (-) TimerEvent: {}
+[4.010703] (-) TimerEvent: {}
+[4.111171] (-) TimerEvent: {}
+[4.211634] (-) TimerEvent: {}
+[4.312214] (-) TimerEvent: {}
+[4.412730] (-) TimerEvent: {}
+[4.513310] (-) TimerEvent: {}
+[4.613781] (-) TimerEvent: {}
+[4.714216] (-) TimerEvent: {}
+[4.814627] (-) TimerEvent: {}
+[4.915115] (-) TimerEvent: {}
+[5.015612] (-) TimerEvent: {}
+[5.115999] (-) TimerEvent: {}
+[5.216418] (-) TimerEvent: {}
+[5.316930] (-) TimerEvent: {}
+[5.417380] (-) TimerEvent: {}
+[5.517943] (-) TimerEvent: {}
+[5.618423] (-) TimerEvent: {}
+[5.718968] (-) TimerEvent: {}
+[5.819463] (-) TimerEvent: {}
+[5.919939] (-) TimerEvent: {}
+[6.020471] (-) TimerEvent: {}
+[6.120937] (-) TimerEvent: {}
+[6.221394] (-) TimerEvent: {}
+[6.321930] (-) TimerEvent: {}
+[6.422595] (-) TimerEvent: {}
+[6.523157] (-) TimerEvent: {}
+[6.623634] (-) TimerEvent: {}
+[6.724205] (-) TimerEvent: {}
+[6.824973] (-) TimerEvent: {}
+[6.925471] (-) TimerEvent: {}
+[7.026030] (-) TimerEvent: {}
+[7.126495] (-) TimerEvent: {}
+[7.227012] (-) TimerEvent: {}
+[7.327416] (-) TimerEvent: {}
+[7.427910] (-) TimerEvent: {}
+[7.528390] (-) TimerEvent: {}
+[7.629006] (-) TimerEvent: {}
+[7.729873] (-) TimerEvent: {}
+[7.830515] (-) TimerEvent: {}
+[7.931123] (-) TimerEvent: {}
+[8.031749] (-) TimerEvent: {}
+[8.132319] (-) TimerEvent: {}
+[8.232828] (-) TimerEvent: {}
+[8.333520] (-) TimerEvent: {}
+[8.434079] (-) TimerEvent: {}
+[8.534637] (-) TimerEvent: {}
+[8.635114] (-) TimerEvent: {}
+[8.735641] (-) TimerEvent: {}
+[8.836166] (-) TimerEvent: {}
+[8.936779] (-) TimerEvent: {}
+[9.037258] (-) TimerEvent: {}
+[9.137701] (-) TimerEvent: {}
+[9.238219] (-) TimerEvent: {}
+[9.338872] (-) TimerEvent: {}
+[9.439469] (-) TimerEvent: {}
+[9.539967] (-) TimerEvent: {}
+[9.640441] (-) TimerEvent: {}
+[9.741024] (-) TimerEvent: {}
+[9.841640] (-) TimerEvent: {}
+[9.942209] (-) TimerEvent: {}
+[10.043008] (-) TimerEvent: {}
+[10.143569] (-) TimerEvent: {}
+[10.244007] (-) TimerEvent: {}
+[10.344407] (-) TimerEvent: {}
+[10.444897] (-) TimerEvent: {}
+[10.545532] (-) TimerEvent: {}
+[10.646008] (-) TimerEvent: {}
+[10.746527] (-) TimerEvent: {}
+[10.847111] (-) TimerEvent: {}
+[10.947572] (-) TimerEvent: {}
+[11.048062] (-) TimerEvent: {}
+[11.148480] (-) TimerEvent: {}
+[11.248994] (-) TimerEvent: {}
+[11.349589] (-) TimerEvent: {}
+[11.450030] (-) TimerEvent: {}
+[11.550527] (-) TimerEvent: {}
+[11.651100] (-) TimerEvent: {}
+[11.751684] (-) TimerEvent: {}
+[11.852140] (-) TimerEvent: {}
+[11.952584] (-) TimerEvent: {}
+[12.052998] (-) TimerEvent: {}
+[12.153406] (-) TimerEvent: {}
+[12.253935] (-) TimerEvent: {}
+[12.354395] (-) TimerEvent: {}
+[12.454780] (-) TimerEvent: {}
+[12.555197] (-) TimerEvent: {}
+[12.655770] (-) TimerEvent: {}
+[12.756214] (-) TimerEvent: {}
+[12.856690] (-) TimerEvent: {}
+[12.957224] (-) TimerEvent: {}
+[13.057691] (-) TimerEvent: {}
+[13.158109] (-) TimerEvent: {}
+[13.258569] (-) TimerEvent: {}
+[13.358994] (-) TimerEvent: {}
+[13.459430] (-) TimerEvent: {}
+[13.559977] (-) TimerEvent: {}
+[13.660457] (-) TimerEvent: {}
+[13.761046] (-) TimerEvent: {}
+[13.861587] (-) TimerEvent: {}
+[13.962152] (-) TimerEvent: {}
+[14.062663] (-) TimerEvent: {}
+[14.163159] (-) TimerEvent: {}
+[14.263686] (-) TimerEvent: {}
+[14.364161] (-) TimerEvent: {}
+[14.464585] (-) TimerEvent: {}
+[14.565058] (-) TimerEvent: {}
+[14.665545] (-) TimerEvent: {}
+[14.766062] (-) TimerEvent: {}
+[14.866548] (-) TimerEvent: {}
+[14.967179] (-) TimerEvent: {}
+[15.067580] (-) TimerEvent: {}
+[15.168057] (-) TimerEvent: {}
+[15.268616] (-) TimerEvent: {}
+[15.369271] (-) TimerEvent: {}
+[15.469742] (-) TimerEvent: {}
+[15.570217] (-) TimerEvent: {}
+[15.670812] (-) TimerEvent: {}
+[15.771276] (-) TimerEvent: {}
+[15.871740] (-) TimerEvent: {}
+[15.972133] (-) TimerEvent: {}
+[16.072637] (-) TimerEvent: {}
+[16.173160] (-) TimerEvent: {}
+[16.273813] (-) TimerEvent: {}
+[16.374300] (-) TimerEvent: {}
+[16.474752] (-) TimerEvent: {}
+[16.575258] (-) TimerEvent: {}
+[16.675759] (-) TimerEvent: {}
+[16.776229] (-) TimerEvent: {}
+[16.876646] (-) TimerEvent: {}
+[16.977198] (-) TimerEvent: {}
+[17.077655] (-) TimerEvent: {}
+[17.178193] (-) TimerEvent: {}
+[17.278666] (-) TimerEvent: {}
+[17.379249] (-) TimerEvent: {}
+[17.479815] (-) TimerEvent: {}
+[17.580327] (-) TimerEvent: {}
+[17.680763] (-) TimerEvent: {}
+[17.781274] (-) TimerEvent: {}
+[17.881940] (-) TimerEvent: {}
+[17.982433] (-) TimerEvent: {}
+[18.082819] (-) TimerEvent: {}
+[18.183331] (-) TimerEvent: {}
+[18.283734] (-) TimerEvent: {}
+[18.384339] (-) TimerEvent: {}
+[18.484999] (-) TimerEvent: {}
+[18.585475] (-) TimerEvent: {}
+[18.685998] (-) TimerEvent: {}
+[18.786472] (-) TimerEvent: {}
+[18.886964] (-) TimerEvent: {}
+[18.987482] (-) TimerEvent: {}
+[19.088041] (-) TimerEvent: {}
+[19.188590] (-) TimerEvent: {}
+[19.289125] (-) TimerEvent: {}
+[19.389621] (-) TimerEvent: {}
+[19.490269] (-) TimerEvent: {}
+[19.590738] (-) TimerEvent: {}
+[19.691186] (-) TimerEvent: {}
+[19.791786] (-) TimerEvent: {}
+[19.892414] (-) TimerEvent: {}
+[19.992917] (-) TimerEvent: {}
+[20.093396] (-) TimerEvent: {}
+[20.193881] (-) TimerEvent: {}
+[20.294405] (-) TimerEvent: {}
+[20.366563] (yolo-ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cam2image_node\x1b[0m\n'}
+[20.394574] (-) TimerEvent: {}
+[20.495095] (-) TimerEvent: {}
+[20.595558] (-) TimerEvent: {}
+[20.696073] (-) TimerEvent: {}
+[20.796578] (-) TimerEvent: {}
+[20.897091] (-) TimerEvent: {}
+[20.997586] (-) TimerEvent: {}
+[21.098072] (-) TimerEvent: {}
+[21.198685] (-) TimerEvent: {}
+[21.299123] (-) TimerEvent: {}
+[21.399609] (-) TimerEvent: {}
+[21.500041] (-) TimerEvent: {}
+[21.600526] (-) TimerEvent: {}
+[21.680490] (yolo-ros) StdoutLine: {'line': b'[100%] Built target cam2image_node\n'}
+[21.694455] (yolo-ros) CommandEnded: {'returncode': 0}
+[21.695610] (yolo-ros) JobProgress: {'identifier': 'yolo-ros', 'progress': 'install'}
+[21.700686] (-) TimerEvent: {}
+[21.705985] (yolo-ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sarve/yolo_ws/build/yolo-ros'], 'cwd': '/home/sarve/yolo_ws/build/yolo-ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sarve', 'GIT_ASKPASS': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib:/home/sarve/ros2_ws/install/relbot_msgs/lib:/home/sarve/ros2_ws/install/img_process/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sarve', 'OLDPWD': '/home/sarve/yolo_ws', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a4c06d24-3bee-4f3d-9566-c1ef917dd9ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sarve/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sarve', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/67240_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '35595', 'TERM': 'xterm-256color', 'PATH': '/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sarve/AppData/Local/Programs/Webots/msys64/mingw64/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Users/sarve/miniconda3:/mnt/c/Users/sarve/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/sarve/miniconda3/Library/usr/bin:/mnt/c/Users/sarve/miniconda3/Library/bin:/mnt/c/Users/sarve/miniconda3/Scripts:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/sarve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sarve/.dotnet/tools:/mnt/c/Users/sarve/AppData/Local/Programs/Ollama:/mnt/c/ffmpeg/ffmpeg-2025-07-10-git-82aeee3c19-full_build/bin:/mnt/c/Users/sarve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sarve/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/sarve/AppData/Local/PowerToys/DSCModules/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-907cf139a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sarve/yolo_ws/build/yolo-ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib/python3.12/site-packages:/home/sarve/ros2_ws/install/relbot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[21.716008] (yolo-ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.716925] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/lib/yolo-ros/cam2image_node\n'}
+[21.728866] (yolo-ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sarve/yolo_ws/install/yolo-ros/lib/yolo-ros/cam2image_node" to ""\n'}
+[21.729325] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros\n'}
+[21.729498] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros/base64.hpp\n'}
+[21.729805] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros/remote_capture.hpp\n'}
+[21.730065] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros/image_processor.hpp\n'}
+[21.730160] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros/cam2image.hpp\n'}
+[21.730235] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/include/yolo-ros/visibility_control.h\n'}
+[21.731545] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/ament_index/resource_index/package_run_dependencies/yolo-ros\n'}
+[21.732139] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/ament_index/resource_index/parent_prefix_path/yolo-ros\n'}
+[21.732690] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/environment/ament_prefix_path.sh\n'}
+[21.732760] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/environment/ament_prefix_path.dsv\n'}
+[21.732920] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/environment/path.sh\n'}
+[21.733040] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/environment/path.dsv\n'}
+[21.733172] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/local_setup.bash\n'}
+[21.733445] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/local_setup.sh\n'}
+[21.733695] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/local_setup.zsh\n'}
+[21.733983] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/local_setup.dsv\n'}
+[21.734237] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/package.dsv\n'}
+[21.735274] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/ament_index/resource_index/packages/yolo-ros\n'}
+[21.735827] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/cmake/yolo-rosConfig.cmake\n'}
+[21.735946] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/cmake/yolo-rosConfig-version.cmake\n'}
+[21.736096] (yolo-ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/yolo-ros/share/yolo-ros/package.xml\n'}
+[21.738514] (yolo-ros) CommandEnded: {'returncode': 0}
+[21.754483] (yolo-ros) JobEnded: {'identifier': 'yolo-ros', 'rc': 0}
+[21.756317] (-) EventReactorShutdown: {}

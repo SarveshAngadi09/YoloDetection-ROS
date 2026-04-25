@@ -1,0 +1,10 @@
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/uninstall.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/yolo-ros_uninstall.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/cam2image_node.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/test.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/edit_cache.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/rebuild_cache.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/list_install_components.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/install.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/install/local.dir
+/home/sarve/yolo_ws/build/yolo-ros/CMakeFiles/install/strip.dir

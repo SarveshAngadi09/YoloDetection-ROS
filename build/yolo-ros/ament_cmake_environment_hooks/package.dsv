@@ -1,0 +1,4 @@
+source;share/yolo-ros/local_setup.bash
+source;share/yolo-ros/local_setup.dsv
+source;share/yolo-ros/local_setup.sh
+source;share/yolo-ros/local_setup.zsh

@@ -1,5 +1,5 @@
-# cam2image_vm2ros
 
+Yolo-Ros
 A ROS 2 package that captures a live camera feed from a remote Windows machine, runs YOLOv8 person detection using ONNX Runtime, and publishes the results for downstream use (e.g. a robot simulator or controller).
 
 ---

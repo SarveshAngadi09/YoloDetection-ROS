@@ -171,7 +171,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=cam2image_vm2ros
+CMAKE_PROJECT_NAME:STATIC=yolo-ros
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -477,6 +477,15 @@ tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
+
+//Value Computed by CMake
+yolo-ros_BINARY_DIR:STATIC=/home/sarve/yolo_ws/build/cam2image_vm2ros
+
+//Value Computed by CMake
+yolo-ros_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+yolo-ros_SOURCE_DIR:STATIC=/home/sarve/yolo_ws/src/yolo_cam
 
 
 ########################

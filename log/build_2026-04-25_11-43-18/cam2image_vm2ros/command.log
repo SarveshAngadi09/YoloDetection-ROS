@@ -1,0 +1,2 @@
+Invoking command in '/home/sarve/yolo_ws/build/cam2image_vm2ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sarve/yolo_ws/build/cam2image_vm2ros -- -j16 -l16
+Invoked command in '/home/sarve/yolo_ws/build/cam2image_vm2ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sarve/yolo_ws/build/cam2image_vm2ros -- -j16 -l16

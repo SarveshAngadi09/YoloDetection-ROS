@@ -1,0 +1,6 @@
+Invoking command in '/home/sarve/yolo_ws/build/yolo-ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sarve/yolo_ws/src/yolo_cam -DCMAKE_INSTALL_PREFIX=/home/sarve/yolo_ws/install/yolo-ros
+Invoked command in '/home/sarve/yolo_ws/build/yolo-ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sarve/yolo_ws/src/yolo_cam -DCMAKE_INSTALL_PREFIX=/home/sarve/yolo_ws/install/yolo-ros
+Invoking command in '/home/sarve/yolo_ws/build/yolo-ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sarve/yolo_ws/build/yolo-ros -- -j16 -l16
+Invoked command in '/home/sarve/yolo_ws/build/yolo-ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sarve/yolo_ws/build/yolo-ros -- -j16 -l16
+Invoking command in '/home/sarve/yolo_ws/build/yolo-ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sarve/yolo_ws/build/yolo-ros
+Invoked command in '/home/sarve/yolo_ws/build/yolo-ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sarve/yolo_ws/build/yolo-ros
