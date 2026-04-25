@@ -1,0 +1,10 @@
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/uninstall.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/cam2image_vm2ros_uninstall.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/cam2image_node.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/test.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/edit_cache.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/rebuild_cache.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/list_install_components.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/install.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/install/local.dir
+/home/sarve/yolo_ws/build/cam2image_vm2ros/CMakeFiles/install/strip.dir

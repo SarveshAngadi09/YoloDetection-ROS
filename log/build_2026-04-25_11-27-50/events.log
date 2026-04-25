@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (cam2image_vm2ros) JobQueued: {'identifier': 'cam2image_vm2ros', 'dependencies': OrderedDict()}
+[0.000529] (cam2image_vm2ros) JobStarted: {'identifier': 'cam2image_vm2ros'}
+[0.009087] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'cmake'}
+[0.010005] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'build'}
+[0.010588] (cam2image_vm2ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sarve/yolo_ws/build/cam2image_vm2ros', '--', '-j16', '-l16'], 'cwd': '/home/sarve/yolo_ws/build/cam2image_vm2ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sarve', 'GIT_ASKPASS': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib:/home/sarve/ros2_ws/install/relbot_msgs/lib:/home/sarve/ros2_ws/install/img_process/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sarve', 'OLDPWD': '/home/sarve/yolo_ws', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a4c06d24-3bee-4f3d-9566-c1ef917dd9ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sarve/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sarve', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/67240_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '35595', 'TERM': 'xterm-256color', 'PATH': '/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sarve/AppData/Local/Programs/Webots/msys64/mingw64/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Users/sarve/miniconda3:/mnt/c/Users/sarve/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/sarve/miniconda3/Library/usr/bin:/mnt/c/Users/sarve/miniconda3/Library/bin:/mnt/c/Users/sarve/miniconda3/Scripts:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/sarve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sarve/.dotnet/tools:/mnt/c/Users/sarve/AppData/Local/Programs/Ollama:/mnt/c/ffmpeg/ffmpeg-2025-07-10-git-82aeee3c19-full_build/bin:/mnt/c/Users/sarve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sarve/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/sarve/AppData/Local/PowerToys/DSCModules/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-907cf139a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sarve/yolo_ws/build/cam2image_vm2ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib/python3.12/site-packages:/home/sarve/ros2_ws/install/relbot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.093853] (cam2image_vm2ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_node.dir/src/cam2image.cpp.o\x1b[0m\n'}
+[0.094530] (cam2image_vm2ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cam2image_node.dir/src/image_processor.cpp.o\x1b[0m\n'}
+[0.099601] (-) TimerEvent: {}
+[0.199934] (-) TimerEvent: {}
+[0.300343] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.501123] (-) TimerEvent: {}
+[0.601552] (-) TimerEvent: {}
+[0.702043] (-) TimerEvent: {}
+[0.802428] (-) TimerEvent: {}
+[0.902859] (-) TimerEvent: {}
+[1.003476] (-) TimerEvent: {}
+[1.103845] (-) TimerEvent: {}
+[1.204301] (-) TimerEvent: {}
+[1.304839] (-) TimerEvent: {}
+[1.405385] (-) TimerEvent: {}
+[1.505854] (-) TimerEvent: {}
+[1.606309] (-) TimerEvent: {}
+[1.706711] (-) TimerEvent: {}
+[1.807147] (-) TimerEvent: {}
+[1.907655] (-) TimerEvent: {}
+[2.008197] (-) TimerEvent: {}
+[2.108678] (-) TimerEvent: {}
+[2.209129] (-) TimerEvent: {}
+[2.309866] (-) TimerEvent: {}
+[2.410379] (-) TimerEvent: {}
+[2.510892] (-) TimerEvent: {}
+[2.611398] (-) TimerEvent: {}
+[2.711873] (-) TimerEvent: {}
+[2.812335] (-) TimerEvent: {}
+[2.912817] (-) TimerEvent: {}
+[3.013268] (-) TimerEvent: {}
+[3.113800] (-) TimerEvent: {}
+[3.214313] (-) TimerEvent: {}
+[3.314768] (-) TimerEvent: {}
+[3.415206] (-) TimerEvent: {}
+[3.515739] (-) TimerEvent: {}
+[3.616269] (-) TimerEvent: {}
+[3.716749] (-) TimerEvent: {}
+[3.817241] (-) TimerEvent: {}
+[3.917662] (-) TimerEvent: {}
+[4.018238] (-) TimerEvent: {}
+[4.118823] (-) TimerEvent: {}
+[4.219341] (-) TimerEvent: {}
+[4.319876] (-) TimerEvent: {}
+[4.420596] (-) TimerEvent: {}
+[4.521152] (-) TimerEvent: {}
+[4.621578] (-) TimerEvent: {}
+[4.722091] (-) TimerEvent: {}
+[4.822594] (-) TimerEvent: {}
+[4.923074] (-) TimerEvent: {}
+[5.023654] (-) TimerEvent: {}
+[5.124121] (-) TimerEvent: {}
+[5.224650] (-) TimerEvent: {}
+[5.325147] (-) TimerEvent: {}
+[5.425612] (-) TimerEvent: {}
+[5.526031] (-) TimerEvent: {}
+[5.626519] (-) TimerEvent: {}
+[5.726997] (-) TimerEvent: {}
+[5.827516] (-) TimerEvent: {}
+[5.927953] (-) TimerEvent: {}
+[6.028407] (-) TimerEvent: {}
+[6.128972] (-) TimerEvent: {}
+[6.229500] (-) TimerEvent: {}
+[6.329975] (-) TimerEvent: {}
+[6.430595] (-) TimerEvent: {}
+[6.531147] (-) TimerEvent: {}
+[6.631755] (-) TimerEvent: {}
+[6.732344] (-) TimerEvent: {}
+[6.832788] (-) TimerEvent: {}
+[6.933274] (-) TimerEvent: {}
+[7.033898] (-) TimerEvent: {}
+[7.134422] (-) TimerEvent: {}
+[7.234848] (-) TimerEvent: {}
+[7.335298] (-) TimerEvent: {}
+[7.435803] (-) TimerEvent: {}
+[7.536602] (-) TimerEvent: {}
+[7.637062] (-) TimerEvent: {}
+[7.737588] (-) TimerEvent: {}
+[7.838040] (-) TimerEvent: {}
+[7.938581] (-) TimerEvent: {}
+[8.039079] (-) TimerEvent: {}
+[8.139660] (-) TimerEvent: {}
+[8.240232] (-) TimerEvent: {}
+[8.340763] (-) TimerEvent: {}
+[8.441320] (-) TimerEvent: {}
+[8.541682] (-) TimerEvent: {}
+[8.642126] (-) TimerEvent: {}
+[8.742683] (-) TimerEvent: {}
+[8.843161] (-) TimerEvent: {}
+[8.943671] (-) TimerEvent: {}
+[9.044181] (-) TimerEvent: {}
+[9.144785] (-) TimerEvent: {}
+[9.245342] (-) TimerEvent: {}
+[9.345769] (-) TimerEvent: {}
+[9.446284] (-) TimerEvent: {}
+[9.546929] (-) TimerEvent: {}
+[9.647385] (-) TimerEvent: {}
+[9.747941] (-) TimerEvent: {}
+[9.848476] (-) TimerEvent: {}
+[9.948847] (-) TimerEvent: {}
+[10.049340] (-) TimerEvent: {}
+[10.149684] (-) TimerEvent: {}
+[10.250103] (-) TimerEvent: {}
+[10.350489] (-) TimerEvent: {}
+[10.451086] (-) TimerEvent: {}
+[10.551542] (-) TimerEvent: {}
+[10.652001] (-) TimerEvent: {}
+[10.752458] (-) TimerEvent: {}
+[10.853069] (-) TimerEvent: {}
+[10.953584] (-) TimerEvent: {}
+[11.054171] (-) TimerEvent: {}
+[11.154781] (-) TimerEvent: {}
+[11.255362] (-) TimerEvent: {}
+[11.355858] (-) TimerEvent: {}
+[11.456404] (-) TimerEvent: {}
+[11.556867] (-) TimerEvent: {}
+[11.657396] (-) TimerEvent: {}
+[11.757923] (-) TimerEvent: {}
+[11.858349] (-) TimerEvent: {}
+[11.958839] (-) TimerEvent: {}
+[12.059436] (-) TimerEvent: {}
+[12.159929] (-) TimerEvent: {}
+[12.260404] (-) TimerEvent: {}
+[12.360906] (-) TimerEvent: {}
+[12.461354] (-) TimerEvent: {}
+[12.561782] (-) TimerEvent: {}
+[12.662262] (-) TimerEvent: {}
+[12.762685] (-) TimerEvent: {}
+[12.863145] (-) TimerEvent: {}
+[12.963722] (-) TimerEvent: {}
+[13.064343] (-) TimerEvent: {}
+[13.164917] (-) TimerEvent: {}
+[13.265389] (-) TimerEvent: {}
+[13.365879] (-) TimerEvent: {}
+[13.466369] (-) TimerEvent: {}
+[13.566846] (-) TimerEvent: {}
+[13.667287] (-) TimerEvent: {}
+[13.767823] (-) TimerEvent: {}
+[13.868603] (-) TimerEvent: {}
+[13.969082] (-) TimerEvent: {}
+[14.069549] (-) TimerEvent: {}
+[14.169963] (-) TimerEvent: {}
+[14.270452] (-) TimerEvent: {}
+[14.370955] (-) TimerEvent: {}
+[14.471361] (-) TimerEvent: {}
+[14.571824] (-) TimerEvent: {}
+[14.672314] (-) TimerEvent: {}
+[14.772793] (-) TimerEvent: {}
+[14.873263] (-) TimerEvent: {}
+[14.973782] (-) TimerEvent: {}
+[15.074316] (-) TimerEvent: {}
+[15.174718] (-) TimerEvent: {}
+[15.275184] (-) TimerEvent: {}
+[15.375690] (-) TimerEvent: {}
+[15.476091] (-) TimerEvent: {}
+[15.576553] (-) TimerEvent: {}
+[15.677071] (-) TimerEvent: {}
+[15.777592] (-) TimerEvent: {}
+[15.878119] (-) TimerEvent: {}
+[15.978642] (-) TimerEvent: {}
+[16.079049] (-) TimerEvent: {}
+[16.179648] (-) TimerEvent: {}
+[16.214758] (cam2image_vm2ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cam2image_node\x1b[0m\n'}
+[16.279773] (-) TimerEvent: {}
+[16.380198] (-) TimerEvent: {}
+[16.480602] (-) TimerEvent: {}
+[16.581069] (-) TimerEvent: {}
+[16.681548] (-) TimerEvent: {}
+[16.781951] (-) TimerEvent: {}
+[16.882385] (-) TimerEvent: {}
+[16.982824] (-) TimerEvent: {}
+[17.083319] (-) TimerEvent: {}
+[17.183867] (-) TimerEvent: {}
+[17.284410] (-) TimerEvent: {}
+[17.384900] (-) TimerEvent: {}
+[17.485352] (-) TimerEvent: {}
+[17.494689] (cam2image_vm2ros) StdoutLine: {'line': b'[100%] Built target cam2image_node\n'}
+[17.508593] (cam2image_vm2ros) CommandEnded: {'returncode': 0}
+[17.509623] (cam2image_vm2ros) JobProgress: {'identifier': 'cam2image_vm2ros', 'progress': 'install'}
+[17.518601] (cam2image_vm2ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sarve/yolo_ws/build/cam2image_vm2ros'], 'cwd': '/home/sarve/yolo_ws/build/cam2image_vm2ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sarve', 'GIT_ASKPASS': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib:/home/sarve/ros2_ws/install/relbot_msgs/lib:/home/sarve/ros2_ws/install/img_process/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sarve', 'OLDPWD': '/home/sarve/yolo_ws', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a4c06d24-3bee-4f3d-9566-c1ef917dd9ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sarve/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sarve', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/67240_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '35595', 'TERM': 'xterm-256color', 'PATH': '/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sarve/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sarve/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sarve/AppData/Local/Programs/Webots/msys64/mingw64/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Users/sarve/miniconda3:/mnt/c/Users/sarve/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/sarve/miniconda3/Library/usr/bin:/mnt/c/Users/sarve/miniconda3/Library/bin:/mnt/c/Users/sarve/miniconda3/Scripts:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/sarve/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/sarve/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sarve/.dotnet/tools:/mnt/c/Users/sarve/AppData/Local/Programs/Ollama:/mnt/c/ffmpeg/ffmpeg-2025-07-10-git-82aeee3c19-full_build/bin:/mnt/c/Users/sarve/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sarve/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/sarve/AppData/Local/PowerToys/DSCModules/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-907cf139a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sarve/yolo_ws/build/cam2image_vm2ros', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sarve/ros2_ws/install/xrf2_msgs/lib/python3.12/site-packages:/home/sarve/ros2_ws/install/relbot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sarve/ros2_ws/install/relbot_simulator:/home/sarve/ros2_ws/install/relbot_adapter:/home/sarve/ros2_ws/install/xrf2_msgs:/home/sarve/ros2_ws/install/relbot_msgs:/home/sarve/ros2_ws/install/img_process:/home/sarve/ros2_ws/install/cam2image_vm2ros:/home/sarve/ros2_ws/install/assignment_2_1:/home/sarve/ros2_ws/install/assignment_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[17.526227] (cam2image_vm2ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.526413] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image_node\n'}
+[17.533568] (cam2image_vm2ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sarve/yolo_ws/install/cam2image_vm2ros/lib/cam2image_vm2ros/cam2image_node" to ""\n'}
+[17.533760] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros\n'}
+[17.533818] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/base64.hpp\n'}
+[17.534206] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/remote_capture.hpp\n'}
+[17.534677] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/image_processor.hpp\n'}
+[17.536404] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/cam2image.hpp\n'}
+[17.536677] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/visibility_control.h\n'}
+[17.536909] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/include/cam2image_vm2ros/object_position.hpp\n'}
+[17.537150] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/ament_index/resource_index/package_run_dependencies/cam2image_vm2ros\n'}
+[17.537258] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/ament_index/resource_index/parent_prefix_path/cam2image_vm2ros\n'}
+[17.537369] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.sh\n'}
+[17.537460] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/ament_prefix_path.dsv\n'}
+[17.537522] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.sh\n'}
+[17.537583] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/environment/path.dsv\n'}
+[17.538201] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.bash\n'}
+[17.539884] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.sh\n'}
+[17.541186] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.zsh\n'}
+[17.541766] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/local_setup.dsv\n'}
+[17.542091] (cam2image_vm2ros) StdoutLine: {'line': b'-- Installing: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/package.dsv\n'}
+[17.542811] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/ament_index/resource_index/packages/cam2image_vm2ros\n'}
+[17.543729] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig.cmake\n'}
+[17.544167] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/cmake/cam2image_vm2rosConfig-version.cmake\n'}
+[17.544591] (cam2image_vm2ros) StdoutLine: {'line': b'-- Up-to-date: /home/sarve/yolo_ws/install/cam2image_vm2ros/share/cam2image_vm2ros/package.xml\n'}
+[17.545042] (cam2image_vm2ros) CommandEnded: {'returncode': 0}
+[17.559982] (cam2image_vm2ros) JobEnded: {'identifier': 'cam2image_vm2ros', 'rc': 0}
+[17.561070] (-) EventReactorShutdown: {}
